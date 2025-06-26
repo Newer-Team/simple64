@@ -337,6 +337,9 @@ MainWindow::~MainWindow()
 
 void MainWindow::updateApp()
 {
+    
+    return;
+    
 #ifdef _AUTOUPDATE
     QString disable_update = qEnvironmentVariable("SIMPLE64_DISABLE_UPDATER");
     if (!disable_update.isEmpty())
